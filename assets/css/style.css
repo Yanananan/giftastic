@@ -1,0 +1,40 @@
+#title{
+    text-align: center;
+    font: 30px bold;
+}
+#form{
+    text-align: center;
+}
+.gif{
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+hr{
+    clear: both;
+}
+#title,#form,.animalButton,.gifText{
+    margin: 5px;
+}
+.downloadButton{
+    border: none;
+    background-color: transparent;
+    color: yellow;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+}
+.favButton{
+    border: none;
+    background-color: transparent;
+    color: aqua;
+    position: absolute;
+    right: 3%;
+    top: 17%;
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+}
