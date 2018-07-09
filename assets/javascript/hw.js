@@ -60,7 +60,7 @@ $(document).on("click",".animalButton",function(){
             tempStorage = [];
         }
         limit = limit+10;
-        var url = "http://api.giphy.com/v1/gifs/search?q="+animal+"&api_key="+apiKey+"&limit="+limit;
+        var url = "https://api.giphy.com/v1/gifs/search?q="+animal+"&api_key="+apiKey+"&limit="+limit;
         $.ajax({url: url})
         .then(function(res){
             console.log(res);
