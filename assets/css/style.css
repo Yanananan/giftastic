@@ -2,6 +2,19 @@
     text-align: center;
     font: 30px bold;
 }
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    border-bottom: solid black 1px;
+    padding: 5px;
+    z-index: 1;
+    background: url(../images/background.png);
+    color: white;
+}
+#content{
+    padding: 5px;
+}
 #form{
     text-align: center;
 }
@@ -10,8 +23,9 @@
     margin: 5px;
     position: relative;
 }
-hr{
+#gifDiv{
     clear: both;
+    border-top: solid black 1px;
 }
 #title,#form,.animalButton,.gifText{
     margin: 5px;
@@ -32,8 +46,19 @@ hr{
     background-color: transparent;
     color: aqua;
     position: absolute;
-    right: 3%;
-    top: 17%;
+    left: 0%;
+    top: 18%;
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+}
+.removeButton{
+    border: none;
+    background-color: transparent;
+    color: red;
+    position: absolute;
+    left: 0%;
+    top: 18%;
     width: 16px;
     height: 16px;
     font-size: 20px;
